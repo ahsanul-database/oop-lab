@@ -1,6 +1,6 @@
 {
   "Basic CPP": {
-    "prefix": "/basicCPP",
+    "prefix": "/basicsCPP",
     "body": [
       "#include <bits/stdc++.h>",
       "using namespace std;",
@@ -13,5 +13,77 @@
       "}"
     ],
     "description": "Basic CPP"
+  },
+  "Average of Two Number": {
+    "prefix": "/AverageTwoFloatNumber",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "",
+      "int main()",
+      "{",
+      "    ",
+      "    float ${1:n}, ${2:m},${3:avg}; ",
+      "    cout << \"Enter two Numbers: \";",
+      "    cin >> ${1:n} >> ${2:m};",
+      "    ${3:avg} = (${1:n} + ${2:m}) / 2;",
+      "    cout << \"Average : \" << ${3:avg} << endl;",
+      "    ",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Average of Two Number"
+  },
+  "Basic Class": {
+    "prefix": "/BasicClass",
+    "body": [
+      "",
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "",
+      "class Student",
+      "{",
+      "    string name;",
+      "    int roll;",
+      "",
+      "public:",
+      "    void input();",
+      "    void display();",
+      "};",
+      "",
+      "void Student ::input()",
+      "{ ",
+      "    cout << \"\\nEnter the Name : \";",
+      "    getline(cin, name);",
+      "    cout << \"Enter the Roll No. : \";",
+      "    cin >> roll;",
+      "}",
+      "",
+      "void Student ::display()",
+      "{",
+      "    ",
+      "    cout << \"\\nName = \" << name << \"\\nRoll: \" << roll << endl;",
+      "}",
+      "",
+      "int main()",
+      "{",
+      "    Student s1, s2; ",
+      "    cout << \"\\n\\tStudent Details\";",
+      "    cout << \"\\n------------------------------\";",
+      "    cout << \"\\nEnter details of first student : \";",
+      "    s1.input(); ",
+      "    cout << \"\\n\\nEnter details of second student : \";",
+      "    getchar();",
+      "    s2.input(); ",
+      "    cout << \"\\n\\nDetails of First Student are as follows : \\n\";",
+      "    s1.display(); ",
+      "    cout << \"\\n\\nDetails of Second Student are as follows : \\n\";",
+      "    s2.display(); ",
+      "",
+      "    return 0;",
+      "}",
+      ""
+    ],
+    "description": "Basic Class"
   }
 }

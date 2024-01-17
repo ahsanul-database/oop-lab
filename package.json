@@ -1,8 +1,15 @@
 {
   "name": "ooplabcode",
-  "displayName": "ooplabcode",
-  "description": "",
+  "displayName": "OOP Lab Code",
+  "description": "A collection of OOP Lab Codes",
+  "publisher": "MDAHSANULHOQUEABIR",
+  "pricing": "Free",
+  "icon": "/logo.jpg",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahsanul-database/oop-lab"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -13,7 +20,7 @@
     "snippets": [
       {
         "language": "cpp",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/snippet.json"
       }
     ]
   }
