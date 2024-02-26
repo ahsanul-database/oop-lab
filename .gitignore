@@ -1,11 +1,11 @@
 node_modules
 *.vsix
-*.cpp
+# *.cpp
 *.exe
 *.cph
 .cph
-Chapter 5 - Classes and Objects
-Chapter 6 - Contstructor and Destructure
-Chapter 2 - Beginning with CPP
-Chapter 3 -  Tokens,Expressions and Control Structures
-Chapter 4 - Funtions in C++
+# Chapter 5 - Classes and Objects
+# Chapter 6 - Contstructor and Destructure
+# Chapter 2 - Beginning with CPP
+# Chapter 3 -  Tokens,Expressions and Control Structures
+# Chapter 4 - Funtions in C++
